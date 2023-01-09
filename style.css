@@ -43,9 +43,11 @@ display: flex;
 padding-left: 150px;
 padding-top: 200px;
 }
-.tick_mark{
-color: #16D887;
+.second_para{
+    display: flex;
+    align-items: center;
 }
+
 /* section third */
 .third{
 margin-top: 100px;
