@@ -111,9 +111,66 @@ font-weight: 600;
 border-radius: 5px;
 border: none;
 }
-/* section fifth start */
+
+
+/* contact section start */
+
+.contact-section {
+    background: linear-gradient(rgba(60, 84, 153, 0.9), rgba(60, 84, 153, 0.9));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 20%;
+    text-align: center;
+    background-attachment: fixed;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.contact-section .little-description {
+    color: #fff;
+    font-size: 20px;
+}
+
+.contact-section form {
+    margin-top: 5rem;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.contact-section form input[type="text"],
+.contact-section form input[type="email"],
+.contact-section form textarea{
+    background: #273a71;
+    border: 1px solid  #273a71;
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 5px 0;
+    color: #fff;
+}
+
+.contact-section form ::placeholder {
+    color: #fff;
+    opacity: .8;
+}
+
+.btn-submit {
+    border: 0;
+    /* border-bottom: 3px solid #299ec5; */
+    background: #30bae7;
+    color: #fff;
+    padding: 15px 40px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 40px;
+    font-size: 16px;
+}
+
+/* section footer start */
 .fifth{
-margin-top: 100px;
+/* margin-top: 100px; */
 background-color: #151414;
 display: flex;
 padding: 100px 200px;
