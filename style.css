@@ -1,0 +1,156 @@
+*{
+margin: 0;
+padding: 0;
+}
+h2{
+font-size: 50px;
+}
+h3{
+font-size: 35px;
+}
+p{
+font-size: 20px;
+padding-top: 15px;
+}
+.header{
+background-image: url(images/banner/banner1.png);
+background-repeat: no-repeat;
+background-size: 80;
+/* background-size: auto; */
+height: 120vh;
+}
+.header_text{
+text-align: right;
+justify-content: right;
+padding-top: 300px;
+padding-right: 150px;
+}
+.header_btn{
+font-size: 20px;
+margin-top: 15px;
+padding: 15px 20px;
+border-radius: 5px;
+border: none;
+color: aliceblue;
+background-color: #F15B22;
+}
+/* second section */
+.second{
+margin-top: 100px;
+display: flex;
+}
+.second-right{
+padding-left: 150px;
+padding-top: 200px;
+}
+.tick_mark{
+color: #16D887;
+}
+/* section third */
+.third{
+margin-top: 100px;
+}
+.third_heading{
+text-align: center;
+margin-bottom: 40px;
+}
+.third_div_boxes{
+display: flex;
+justify-content: center;
+}
+.third_box{
+margin: 50px;
+}
+.third_img{
+padding-left: 50px;
+}
+.third_title{
+font-size: 25px;
+font-weight: bold;
+text-align: center;
+}
+.third_paragraph{
+color:dimgray;
+padding-left: 35px;
+}
+.third_title_js{
+font-size: 25px;
+font-weight: bold;
+padding-left: 37px;
+}
+.third_title_ecom{
+font-size: 25px;
+font-weight: bold;
+padding-left: 40px;
+}
+/* Forth section start */
+.forth{
+margin:100px 0;
+height: 255px;
+width: 900px;
+border-radius: 5px;
+background-image: linear-gradient(to right, #ff5400de,#ffffff59), url(images/watch.png);
+margin-left: 230px;
+}
+.forth_div{
+padding-top: 50px;
+padding-left: 40px;
+}
+.forth_text{
+font-size: 30px;
+font-weight: 700;
+color: aliceblue;
+}
+.forth_btn{
+margin-top: 15px;
+padding: 15px 25px;
+color: #F15B22;
+font-weight: 600;
+border-radius: 5px;
+border: none;
+}
+/* section fifth start */
+.fifth{
+margin-top: 100px;
+background-color: #151414;
+display: flex;
+padding: 100px 200px;
+}
+.fifth_first_div{
+color: aliceblue;
+}
+.fifth_paragraph{
+margin: 10px 0;
+}
+.fifth_second_div{
+color: aliceblue;
+padding-top: 20px;
+padding-left: 300px;
+}
+.fifth_senond_paragraph{
+font-size: 25px;
+}
+.fifth_input{
+margin: 25px 0 15px 0;
+padding: 15px ;
+width: 250px;
+background-color: #151414;
+border-color: aliceblue;
+border-radius: 5px;
+}
+.fifth_btn{
+padding: 17px 30px;
+border: none;
+border-radius: 5px;
+color: #F15B22;
+font-size: 20px;
+font-weight: 400;
+}
+.social_media{
+margin-top: 30px;
+box-sizing: border-box;
+display: flex;
+}
+.icon{
+margin: 0 10px;
+}
